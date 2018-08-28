@@ -1,0 +1,40 @@
+body{
+  background: black;
+}
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;
+  
+}
+
+.red {
+	position: absolute;
+	width: 600px;
+	height: 210px;
+	background-color: red;	
+	top: 50%;
+	z-index: 1;
+}
+.white {
+	position: absolute;
+	width: 600px;
+	height: 210px;
+	background-color: white;
+	top: 0%;
+	z-index: 1;
+	
+}
+.blue {
+	position: absolute;
+	
+	border-top: 210px solid transparent;
+	border-left: 300px solid blue;
+	border-bottom: 210px solid transparent;
+	z-index: 2;
+}
+
